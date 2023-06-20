@@ -1,222 +1,878 @@
-2023-06-20 19:56:43,698:INFO:-----------------------------------
-2023-06-20 19:56:43,698:INFO:Function delete_tmp_files was called at 2023-06-20 19:56:43.698514
-2023-06-20 19:56:43,698:INFO:Arguments () and {}
-2023-06-20 19:56:43,698:ERROR:[WinError 3] The system cannot find the path specified: 'tmp'
-2023-06-20 19:56:43,698:INFO:-----------------------------------
-2023-06-20 19:56:43,698:INFO:Function retrive_xml_files was called at 2023-06-20 19:56:43.698514
-2023-06-20 19:56:43,698:INFO:Arguments ('https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html',) and {}
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BABNO-POL_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_BILJE_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BLEGOS_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOHIN-CES_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BORST_GOREN-VAS_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOVEC_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BREGINJ_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BUKOV-VRH_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CELJE_MEDLOG_latest.xml was found
-2023-06-20 19:56:43,790:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKN-JEZ_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DAVCA_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DEBEL-RTI_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CRNOMELJ_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_AJDOV-INA_DOLENJE_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GACNIK_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GODNJE_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORNJ-GRA_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HOCKO-POH_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HRASTNIK_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_IDRIJA_CISTI-NAP_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ILIRS-BIS_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ISKRBA_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERONIM_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERUZ-LEM_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JEZERSKO_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KAMNI-BIS_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KANIN_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOCEVJE_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_KAPET-IJA_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOREN-SED_latest.xml was found
-2023-06-20 19:56:43,791:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORICKO_KRAJI-PAR_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRANJ_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KREDA-ICA_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRN_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRSKO_NEK_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRVAVEC_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUBED_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUM_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LENDAVA_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKLJE_LETAL-SCE_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_SLIVNICA_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BRNIK_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LESCE_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PORTOROZ_SECOVLJE_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LISCA_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LITIJA_GRBIN_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BEZIGRAD_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGAR-DOL_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGATEC_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_LUKA_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MALKOVEC_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_VRBAN-PLA_latest.xml was found
-2023-06-20 19:56:43,792:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIN-VAS_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_METLIKA_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MEZICA_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MIKLAVZ_NA-GOR_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MURSK-SOB_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NANOS_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-VAS_BLOKE_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVO-MES_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OSILNICA_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OTLICA_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SKOCJAN_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PASJA-RAV_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PAVLI-SED_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PIRAN_OCEAN-BOJ_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PLANI-POD_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODCE-TEK_ATOMS-TOP_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODNANOS_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_POSTOJNA_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PREDEL_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PTUJ_latest.xml was found
-2023-06-20 19:56:43,793:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RADEG-NDA_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATECE_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATIT-VEC_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RAVNE_NA-KOR_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGAS-SLA_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGLA_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RUDNO-POL_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEVNO_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLAVNIK_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-KON_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRIJE-KRA_NA-POH_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SVISCAKI_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEBRE-VRH_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-GRA_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TATRE_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOLMIN_VOLCE_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOPOL_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRBOVLJE_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TREBNJE_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TROJANE_LIMOVCE_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRZAS-ZAL_latest.xml was found
-2023-06-20 19:56:43,794:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_URSLJ-GOR_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VEDRIJAN_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELENJE_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELIK-LAS_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VOGEL_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRHNIKA_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRSIC_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZADLOG_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZELENICA_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-KAP_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-RAD_latest.xml was found
-2023-06-20 19:56:43,795:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-SOR_latest.xml was found
-2023-06-20 19:56:43,796:INFO:-----------------------------------
-2023-06-20 19:56:43,796:INFO:Function write_xml_files was called at 2023-06-20 19:56:43.796684
-2023-06-20 19:56:43,797:INFO:Arguments (['/uploads/probase/www/observ/surface/text/sl/observationAms_BABNO-POL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_BILJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_BLEGOS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_BOHIN-CES_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_BORST_GOREN-VAS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_BOVEC_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_BREGINJ_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_BUKOV-VRH_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_CELJE_MEDLOG_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_CERKN-JEZ_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_DAVCA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_DEBEL-RTI_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_CRNOMELJ_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_AJDOV-INA_DOLENJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_GACNIK_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_GODNJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_GORNJ-GRA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_HOCKO-POH_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_HRASTNIK_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_IDRIJA_CISTI-NAP_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ILIRS-BIS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ISKRBA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_JERONIM_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_JERUZ-LEM_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_JEZERSKO_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KAMNI-BIS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KANIN_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KOCEVJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_KAPET-IJA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KOREN-SED_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_GORICKO_KRAJI-PAR_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KRANJ_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KREDA-ICA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KRN_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KRSKO_NEK_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KRVAVEC_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KUBED_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KUM_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LENDAVA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_CERKLJE_LETAL-SCE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_SLIVNICA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BRNIK_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LESCE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PORTOROZ_SECOVLJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LISCA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LITIJA_GRBIN_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BEZIGRAD_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LOGAR-DOL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_LOGATEC_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_LUKA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MALKOVEC_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_VRBAN-PLA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MARIN-VAS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_METLIKA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MEZICA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MIKLAVZ_NA-GOR_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_MURSK-SOB_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_NANOS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-VAS_BLOKE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_NOVO-MES_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_OSILNICA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_OTLICA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SKOCJAN_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PASJA-RAV_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PAVLI-SED_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PIRAN_OCEAN-BOJ_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PLANI-POD_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PODCE-TEK_ATOMS-TOP_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PODNANOS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_POSTOJNA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PREDEL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_PTUJ_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_RADEG-NDA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_RATECE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_RATIT-VEC_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_RAVNE_NA-KOR_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ROGAS-SLA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ROGLA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_RUDNO-POL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SEVNO_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SLAVNIK_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-KON_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TRIJE-KRA_NA-POH_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SVISCAKI_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SEBRE-VRH_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-GRA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TATRE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TOLMIN_VOLCE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TOPOL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TRBOVLJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TREBNJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TROJANE_LIMOVCE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_TRZAS-ZAL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_URSLJ-GOR_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_VEDRIJAN_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_VELENJE_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_VELIK-LAS_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_VOGEL_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_VRHNIKA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_VRSIC_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ZADLOG_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ZELENICA_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-KAP_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-RAD_latest.xml', '/uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-SOR_latest.xml'],) and {}
-2023-06-20 19:56:43,845:INFO:File BABNO-POL was downloaded
-2023-06-20 19:56:43,895:INFO:File BILJE was downloaded
-2023-06-20 19:56:43,941:INFO:File BLEGOS was downloaded
-2023-06-20 19:56:44,014:INFO:File BOHIN-CES was downloaded
-2023-06-20 19:56:44,069:INFO:File GOREN-VAS was downloaded
-2023-06-20 19:56:44,127:INFO:File BOVEC was downloaded
-2023-06-20 19:56:44,177:INFO:File BREGINJ was downloaded
-2023-06-20 19:56:44,219:INFO:File BUKOV-VRH was downloaded
-2023-06-20 19:56:44,265:INFO:File MEDLOG was downloaded
-2023-06-20 19:56:44,306:INFO:File CERKN-JEZ was downloaded
-2023-06-20 19:56:44,352:INFO:File DAVCA was downloaded
-2023-06-20 19:56:44,405:INFO:File DEBEL-RTI was downloaded
-2023-06-20 19:56:44,459:INFO:File CRNOMELJ was downloaded
-2023-06-20 19:56:44,505:INFO:File DOLENJE was downloaded
-2023-06-20 19:56:44,550:INFO:File GACNIK was downloaded
-2023-06-20 19:56:44,592:INFO:File GODNJE was downloaded
-2023-06-20 19:56:44,633:INFO:File GORNJ-GRA was downloaded
-2023-06-20 19:56:44,677:INFO:File HOCKO-POH was downloaded
-2023-06-20 19:56:44,723:INFO:File HRASTNIK was downloaded
-2023-06-20 19:56:44,764:INFO:File CISTI-NAP was downloaded
-2023-06-20 19:56:44,807:INFO:File ILIRS-BIS was downloaded
-2023-06-20 19:56:44,872:INFO:File ISKRBA was downloaded
-2023-06-20 19:56:44,914:INFO:File JERONIM was downloaded
-2023-06-20 19:56:44,956:INFO:File JERUZ-LEM was downloaded
-2023-06-20 19:56:44,999:INFO:File JEZERSKO was downloaded
-2023-06-20 19:56:45,046:INFO:File KAMNI-BIS was downloaded
-2023-06-20 19:56:45,103:INFO:File KANIN was downloaded
-2023-06-20 19:56:45,147:INFO:File KOCEVJE was downloaded
-2023-06-20 19:56:45,195:INFO:File KAPET-IJA was downloaded
-2023-06-20 19:56:45,237:INFO:File KOREN-SED was downloaded
-2023-06-20 19:56:45,291:INFO:File KRAJI-PAR was downloaded
-2023-06-20 19:56:45,346:INFO:File KRANJ was downloaded
-2023-06-20 19:56:45,390:INFO:File KREDA-ICA was downloaded
-2023-06-20 19:56:45,433:INFO:File KRN was downloaded
-2023-06-20 19:56:45,494:INFO:File NEK was downloaded
-2023-06-20 19:56:45,538:INFO:File KRVAVEC was downloaded
-2023-06-20 19:56:45,596:INFO:File KUBED was downloaded
-2023-06-20 19:56:45,661:INFO:File KUM was downloaded
-2023-06-20 19:56:45,710:INFO:File LENDAVA was downloaded
-2023-06-20 19:56:45,758:INFO:File LETAL-SCE was downloaded
-2023-06-20 19:56:45,801:INFO:File SLIVNICA was downloaded
-2023-06-20 19:56:45,859:INFO:File BRNIK was downloaded
-2023-06-20 19:56:45,911:INFO:File LESCE was downloaded
-2023-06-20 19:56:45,961:INFO:File SECOVLJE was downloaded
-2023-06-20 19:56:46,004:INFO:File LISCA was downloaded
-2023-06-20 19:56:46,047:INFO:File GRBIN was downloaded
-2023-06-20 19:56:46,093:INFO:File BEZIGRAD was downloaded
-2023-06-20 19:56:46,135:INFO:File LOGAR-DOL was downloaded
-2023-06-20 19:56:46,181:INFO:File LOGATEC was downloaded
-2023-06-20 19:56:46,225:INFO:File LUKA was downloaded
-2023-06-20 19:56:46,267:INFO:File MALKOVEC was downloaded
-2023-06-20 19:56:46,308:INFO:File VRBAN-PLA was downloaded
-2023-06-20 19:56:46,350:INFO:File MARIN-VAS was downloaded
-2023-06-20 19:56:46,404:INFO:File METLIKA was downloaded
-2023-06-20 19:56:46,450:INFO:File MEZICA was downloaded
-2023-06-20 19:56:46,493:INFO:File NA-GOR was downloaded
-2023-06-20 19:56:46,536:INFO:File MURSK-SOB was downloaded
-2023-06-20 19:56:46,579:INFO:File NANOS was downloaded
-2023-06-20 19:56:46,634:INFO:File NOVA-GOR was downloaded
-2023-06-20 19:56:46,678:INFO:File BLOKE was downloaded
-2023-06-20 19:56:46,730:INFO:File NOVO-MES was downloaded
-2023-06-20 19:56:46,778:INFO:File OSILNICA was downloaded
-2023-06-20 19:56:46,823:INFO:File OTLICA was downloaded
-2023-06-20 19:56:46,864:INFO:File SKOCJAN was downloaded
-2023-06-20 19:56:46,906:INFO:File PASJA-RAV was downloaded
-2023-06-20 19:56:46,955:INFO:File PAVLI-SED was downloaded
-2023-06-20 19:56:47,004:INFO:File OCEAN-BOJ was downloaded
-2023-06-20 19:56:47,050:INFO:File PLANI-POD was downloaded
-2023-06-20 19:56:47,133:INFO:File ATOMS-TOP was downloaded
-2023-06-20 19:56:47,192:INFO:File PODNANOS was downloaded
-2023-06-20 19:56:47,235:INFO:File POSTOJNA was downloaded
-2023-06-20 19:56:47,288:INFO:File PREDEL was downloaded
-2023-06-20 19:56:47,330:INFO:File PTUJ was downloaded
-2023-06-20 19:56:47,371:INFO:File RADEG-NDA was downloaded
-2023-06-20 19:56:47,433:INFO:File RATECE was downloaded
-2023-06-20 19:56:47,473:INFO:File RATIT-VEC was downloaded
-2023-06-20 19:56:47,516:INFO:File NA-KOR was downloaded
-2023-06-20 19:56:47,557:INFO:File ROGAS-SLA was downloaded
-2023-06-20 19:56:47,600:INFO:File ROGLA was downloaded
-2023-06-20 19:56:47,652:INFO:File RUDNO-POL was downloaded
-2023-06-20 19:56:47,697:INFO:File SEVNO was downloaded
-2023-06-20 19:56:47,747:INFO:File SLAVNIK was downloaded
-2023-06-20 19:56:47,798:INFO:File SLOVE-KON was downloaded
-2023-06-20 19:56:47,844:INFO:File NA-POH was downloaded
-2023-06-20 19:56:47,888:INFO:File SVISCAKI was downloaded
-2023-06-20 19:56:47,933:INFO:File SEBRE-VRH was downloaded
-2023-06-20 19:56:47,984:INFO:File SLOVE-GRA was downloaded
-2023-06-20 19:56:48,026:INFO:File TATRE was downloaded
-2023-06-20 19:56:48,070:INFO:File VOLCE was downloaded
-2023-06-20 19:56:48,115:INFO:File TOPOL was downloaded
-2023-06-20 19:56:48,156:INFO:File TRBOVLJE was downloaded
-2023-06-20 19:56:48,202:INFO:File TREBNJE was downloaded
-2023-06-20 19:56:48,242:INFO:File LIMOVCE was downloaded
-2023-06-20 19:56:48,297:INFO:File TRZAS-ZAL was downloaded
-2023-06-20 19:56:48,341:INFO:File URSLJ-GOR was downloaded
-2023-06-20 19:56:48,385:INFO:File VEDRIJAN was downloaded
-2023-06-20 19:56:48,451:INFO:File VELENJE was downloaded
-2023-06-20 19:56:48,507:INFO:File VELIK-LAS was downloaded
-2023-06-20 19:56:48,560:INFO:File VOGEL was downloaded
-2023-06-20 19:56:48,602:INFO:File VRHNIKA was downloaded
-2023-06-20 19:56:48,645:INFO:File VRSIC was downloaded
-2023-06-20 19:56:48,686:INFO:File ZADLOG was downloaded
-2023-06-20 19:56:48,729:INFO:File ZELENICA was downloaded
-2023-06-20 19:56:48,768:INFO:File ZGORN-KAP was downloaded
-2023-06-20 19:56:48,811:INFO:File ZGORN-RAD was downloaded
-2023-06-20 19:56:48,854:INFO:File ZGORN-SOR was downloaded
+2023-06-20 22:42:34,612:INFO:-----------------------------------
+2023-06-20 22:42:34,613:INFO:Function delete_tmp_files was called at 2023-06-20 22:42:34.612057
+2023-06-20 22:42:34,613:INFO:Arguments () and {}
+2023-06-20 22:42:34,649:INFO:All files from tmp folder were deleted
+2023-06-20 22:42:34,649:INFO:-----------------------------------
+2023-06-20 22:42:34,649:INFO:Function retrive_xml_files_name was called at 2023-06-20 22:42:34.649414
+2023-06-20 22:42:34,649:INFO:Arguments ('https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html',) and {}
+2023-06-20 22:42:34,796:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BABNO-POL_latest.xml was found
+2023-06-20 22:42:34,796:INFO:district name: BABNO-POL
+2023-06-20 22:42:34,796:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_BILJE_latest.xml was found
+2023-06-20 22:42:34,796:INFO:district name: NOVA-GOR_BILJE
+2023-06-20 22:42:34,796:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BLEGOS_latest.xml was found
+2023-06-20 22:42:34,796:INFO:district name: BLEGOS
+2023-06-20 22:42:34,796:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOHIN-CES_latest.xml was found
+2023-06-20 22:42:34,796:INFO:district name: BOHIN-CES
+2023-06-20 22:42:34,796:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BORST_GOREN-VAS_latest.xml was found
+2023-06-20 22:42:34,796:INFO:district name: BORST_GOREN-VAS
+2023-06-20 22:42:34,797:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOVEC_latest.xml was found
+2023-06-20 22:42:34,797:INFO:district name: BOVEC
+2023-06-20 22:42:34,797:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BREGINJ_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: BREGINJ
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BUKOV-VRH_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: BUKOV-VRH
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CELJE_MEDLOG_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: CELJE_MEDLOG
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKN-JEZ_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: CERKN-JEZ
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DAVCA_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: DAVCA
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DEBEL-RTI_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: DEBEL-RTI
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CRNOMELJ_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: CRNOMELJ
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_AJDOV-INA_DOLENJE_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: AJDOV-INA_DOLENJE
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GACNIK_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: GACNIK
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GODNJE_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: GODNJE
+2023-06-20 22:42:34,798:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORNJ-GRA_latest.xml was found
+2023-06-20 22:42:34,798:INFO:district name: GORNJ-GRA
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HOCKO-POH_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: HOCKO-POH
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HRASTNIK_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: HRASTNIK
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_IDRIJA_CISTI-NAP_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: IDRIJA_CISTI-NAP
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ILIRS-BIS_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: ILIRS-BIS
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ISKRBA_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: ISKRBA
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERONIM_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: JERONIM
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERUZ-LEM_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: JERUZ-LEM
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JEZERSKO_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: JEZERSKO
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KAMNI-BIS_latest.xml was found
+2023-06-20 22:42:34,799:INFO:district name: KAMNI-BIS
+2023-06-20 22:42:34,799:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KANIN_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KANIN
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOCEVJE_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KOCEVJE
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_KAPET-IJA_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KOPER_KAPET-IJA
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOREN-SED_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KOREN-SED
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORICKO_KRAJI-PAR_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: GORICKO_KRAJI-PAR
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRANJ_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KRANJ
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KREDA-ICA_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KREDA-ICA
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRN_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KRN
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRSKO_NEK_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KRSKO_NEK
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRVAVEC_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KRVAVEC
+2023-06-20 22:42:34,800:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUBED_latest.xml was found
+2023-06-20 22:42:34,800:INFO:district name: KUBED
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUM_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: KUM
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LENDAVA_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: LENDAVA
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKLJE_LETAL-SCE_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: CERKLJE_LETAL-SCE
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_SLIVNICA_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: MARIBOR_SLIVNICA
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BRNIK_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: LJUBL-ANA_BRNIK
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LESCE_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: LESCE
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PORTOROZ_SECOVLJE_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: PORTOROZ_SECOVLJE
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LISCA_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: LISCA
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LITIJA_GRBIN_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: LITIJA_GRBIN
+2023-06-20 22:42:34,801:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BEZIGRAD_latest.xml was found
+2023-06-20 22:42:34,801:INFO:district name: LJUBL-ANA_BEZIGRAD
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGAR-DOL_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: LOGAR-DOL
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGATEC_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: LOGATEC
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_LUKA_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: KOPER_LUKA
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MALKOVEC_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: MALKOVEC
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_VRBAN-PLA_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: MARIBOR_VRBAN-PLA
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIN-VAS_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: MARIN-VAS
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_METLIKA_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: METLIKA
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MEZICA_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: MEZICA
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MIKLAVZ_NA-GOR_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: MIKLAVZ_NA-GOR
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MURSK-SOB_latest.xml was found
+2023-06-20 22:42:34,802:INFO:district name: MURSK-SOB
+2023-06-20 22:42:34,802:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NANOS_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: NANOS
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: NOVA-GOR
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-VAS_BLOKE_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: NOVA-VAS_BLOKE
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVO-MES_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: NOVO-MES
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OSILNICA_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: OSILNICA
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OTLICA_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: OTLICA
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SKOCJAN_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: SKOCJAN
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PASJA-RAV_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: PASJA-RAV
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PAVLI-SED_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: PAVLI-SED
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PIRAN_OCEAN-BOJ_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: PIRAN_OCEAN-BOJ
+2023-06-20 22:42:34,803:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PLANI-POD_latest.xml was found
+2023-06-20 22:42:34,803:INFO:district name: PLANI-POD
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODCE-TEK_ATOMS-TOP_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: PODCE-TEK_ATOMS-TOP
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODNANOS_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: PODNANOS
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_POSTOJNA_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: POSTOJNA
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PREDEL_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: PREDEL
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PTUJ_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: PTUJ
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RADEG-NDA_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: RADEG-NDA
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATECE_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: RATECE
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATIT-VEC_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: RATIT-VEC
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RAVNE_NA-KOR_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: RAVNE_NA-KOR
+2023-06-20 22:42:34,804:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGAS-SLA_latest.xml was found
+2023-06-20 22:42:34,804:INFO:district name: ROGAS-SLA
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGLA_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: ROGLA
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RUDNO-POL_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: RUDNO-POL
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEVNO_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: SEVNO
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLAVNIK_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: SLAVNIK
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-KON_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: SLOVE-KON
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRIJE-KRA_NA-POH_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: TRIJE-KRA_NA-POH
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SVISCAKI_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: SVISCAKI
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEBRE-VRH_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: SEBRE-VRH
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-GRA_latest.xml was found
+2023-06-20 22:42:34,805:INFO:district name: SLOVE-GRA
+2023-06-20 22:42:34,805:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TATRE_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TATRE
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOLMIN_VOLCE_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TOLMIN_VOLCE
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOPOL_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TOPOL
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRBOVLJE_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TRBOVLJE
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TREBNJE_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TREBNJE
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TROJANE_LIMOVCE_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TROJANE_LIMOVCE
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRZAS-ZAL_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: TRZAS-ZAL
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_URSLJ-GOR_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: URSLJ-GOR
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VEDRIJAN_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: VEDRIJAN
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELENJE_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: VELENJE
+2023-06-20 22:42:34,806:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELIK-LAS_latest.xml was found
+2023-06-20 22:42:34,806:INFO:district name: VELIK-LAS
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VOGEL_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: VOGEL
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRHNIKA_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: VRHNIKA
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRSIC_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: VRSIC
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZADLOG_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: ZADLOG
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZELENICA_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: ZELENICA
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-KAP_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: ZGORN-KAP
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-RAD_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: ZGORN-RAD
+2023-06-20 22:42:34,807:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-SOR_latest.xml was found
+2023-06-20 22:42:34,807:INFO:district name: ZGORN-SOR
+2023-06-20 22:42:34,811:INFO:-----------------------------------
+2023-06-20 22:42:34,811:INFO:Function write_xml_files was called at 2023-06-20 22:42:34.811911
+2023-06-20 22:42:34,811:INFO:Arguments (['BABNO-POL', 'NOVA-GOR_BILJE', 'BLEGOS', 'BOHIN-CES', 'BORST_GOREN-VAS', 'BOVEC', 'BREGINJ', 'BUKOV-VRH', 'CELJE_MEDLOG', 'CERKN-JEZ', 'DAVCA', 'DEBEL-RTI', 'CRNOMELJ', 'AJDOV-INA_DOLENJE', 'GACNIK', 'GODNJE', 'GORNJ-GRA', 'HOCKO-POH', 'HRASTNIK', 'IDRIJA_CISTI-NAP', 'ILIRS-BIS', 'ISKRBA', 'JERONIM', 'JERUZ-LEM', 'JEZERSKO', 'KAMNI-BIS', 'KANIN', 'KOCEVJE', 'KOPER_KAPET-IJA', 'KOREN-SED', 'GORICKO_KRAJI-PAR', 'KRANJ', 'KREDA-ICA', 'KRN', 'KRSKO_NEK', 'KRVAVEC', 'KUBED', 'KUM', 'LENDAVA', 'CERKLJE_LETAL-SCE', 'MARIBOR_SLIVNICA', 'LJUBL-ANA_BRNIK', 'LESCE', 'PORTOROZ_SECOVLJE', 'LISCA', 'LITIJA_GRBIN', 'LJUBL-ANA_BEZIGRAD', 'LOGAR-DOL', 'LOGATEC', 'KOPER_LUKA', 'MALKOVEC', 'MARIBOR_VRBAN-PLA', 'MARIN-VAS', 'METLIKA', 'MEZICA', 'MIKLAVZ_NA-GOR', 'MURSK-SOB', 'NANOS', 'NOVA-GOR', 'NOVA-VAS_BLOKE', 'NOVO-MES', 'OSILNICA', 'OTLICA', 'SKOCJAN', 'PASJA-RAV', 'PAVLI-SED', 'PIRAN_OCEAN-BOJ', 'PLANI-POD', 'PODCE-TEK_ATOMS-TOP', 'PODNANOS', 'POSTOJNA', 'PREDEL', 'PTUJ', 'RADEG-NDA', 'RATECE', 'RATIT-VEC', 'RAVNE_NA-KOR', 'ROGAS-SLA', 'ROGLA', 'RUDNO-POL', 'SEVNO', 'SLAVNIK', 'SLOVE-KON', 'TRIJE-KRA_NA-POH', 'SVISCAKI', 'SEBRE-VRH', 'SLOVE-GRA', 'TATRE', 'TOLMIN_VOLCE', 'TOPOL', 'TRBOVLJE', 'TREBNJE', 'TROJANE_LIMOVCE', 'TRZAS-ZAL', 'URSLJ-GOR', 'VEDRIJAN', 'VELENJE', 'VELIK-LAS', 'VOGEL', 'VRHNIKA', 'VRSIC', 'ZADLOG', 'ZELENICA', 'ZGORN-KAP', 'ZGORN-RAD', 'ZGORN-SOR'],) and {}
+2023-06-20 22:42:34,961:INFO:File BABNO-POL was downloaded
+2023-06-20 22:42:35,084:INFO:File NOVA-GOR_BILJE was downloaded
+2023-06-20 22:42:35,202:INFO:File BLEGOS was downloaded
+2023-06-20 22:42:35,320:INFO:File BOHIN-CES was downloaded
+2023-06-20 22:42:35,442:INFO:File BORST_GOREN-VAS was downloaded
+2023-06-20 22:42:35,514:INFO:File BOVEC was downloaded
+2023-06-20 22:42:35,619:INFO:File BREGINJ was downloaded
+2023-06-20 22:42:35,758:INFO:File BUKOV-VRH was downloaded
+2023-06-20 22:42:35,847:INFO:File CELJE_MEDLOG was downloaded
+2023-06-20 22:42:35,964:INFO:File CERKN-JEZ was downloaded
+2023-06-20 22:42:36,066:INFO:File DAVCA was downloaded
+2023-06-20 22:42:36,159:INFO:File DEBEL-RTI was downloaded
+2023-06-20 22:42:36,228:INFO:File CRNOMELJ was downloaded
+2023-06-20 22:42:36,293:INFO:File AJDOV-INA_DOLENJE was downloaded
+2023-06-20 22:42:36,411:INFO:File GACNIK was downloaded
+2023-06-20 22:42:36,513:INFO:File GODNJE was downloaded
+2023-06-20 22:42:36,627:INFO:File GORNJ-GRA was downloaded
+2023-06-20 22:42:36,722:INFO:File HOCKO-POH was downloaded
+2023-06-20 22:42:36,823:INFO:File HRASTNIK was downloaded
+2023-06-20 22:42:36,909:INFO:File IDRIJA_CISTI-NAP was downloaded
+2023-06-20 22:42:36,977:INFO:File ILIRS-BIS was downloaded
+2023-06-20 22:42:37,073:INFO:File ISKRBA was downloaded
+2023-06-20 22:42:37,166:INFO:File JERONIM was downloaded
+2023-06-20 22:42:37,282:INFO:File JERUZ-LEM was downloaded
+2023-06-20 22:42:37,377:INFO:File JEZERSKO was downloaded
+2023-06-20 22:42:37,463:INFO:File KAMNI-BIS was downloaded
+2023-06-20 22:42:37,589:INFO:File KANIN was downloaded
+2023-06-20 22:42:37,696:INFO:File KOCEVJE was downloaded
+2023-06-20 22:42:37,767:INFO:File KOPER_KAPET-IJA was downloaded
+2023-06-20 22:42:37,877:INFO:File KOREN-SED was downloaded
+2023-06-20 22:42:37,948:INFO:File GORICKO_KRAJI-PAR was downloaded
+2023-06-20 22:42:38,053:INFO:File KRANJ was downloaded
+2023-06-20 22:42:38,158:INFO:File KREDA-ICA was downloaded
+2023-06-20 22:42:38,258:INFO:File KRN was downloaded
+2023-06-20 22:42:38,353:INFO:File KRSKO_NEK was downloaded
+2023-06-20 22:42:38,497:INFO:File KRVAVEC was downloaded
+2023-06-20 22:42:38,594:INFO:File KUBED was downloaded
+2023-06-20 22:42:38,706:INFO:File KUM was downloaded
+2023-06-20 22:42:38,769:INFO:File LENDAVA was downloaded
+2023-06-20 22:42:38,829:INFO:File CERKLJE_LETAL-SCE was downloaded
+2023-06-20 22:42:38,890:INFO:File MARIBOR_SLIVNICA was downloaded
+2023-06-20 22:42:38,998:INFO:File LJUBL-ANA_BRNIK was downloaded
+2023-06-20 22:42:39,056:INFO:File LESCE was downloaded
+2023-06-20 22:42:39,149:INFO:File PORTOROZ_SECOVLJE was downloaded
+2023-06-20 22:42:39,262:INFO:File LISCA was downloaded
+2023-06-20 22:42:39,361:INFO:File LITIJA_GRBIN was downloaded
+2023-06-20 22:42:39,470:INFO:File LJUBL-ANA_BEZIGRAD was downloaded
+2023-06-20 22:42:39,556:INFO:File LOGAR-DOL was downloaded
+2023-06-20 22:42:39,640:INFO:File LOGATEC was downloaded
+2023-06-20 22:42:39,707:INFO:File KOPER_LUKA was downloaded
+2023-06-20 22:42:39,822:INFO:File MALKOVEC was downloaded
+2023-06-20 22:42:39,922:INFO:File MARIBOR_VRBAN-PLA was downloaded
+2023-06-20 22:42:40,035:INFO:File MARIN-VAS was downloaded
+2023-06-20 22:42:40,135:INFO:File METLIKA was downloaded
+2023-06-20 22:42:40,260:INFO:File MEZICA was downloaded
+2023-06-20 22:42:40,352:INFO:File MIKLAVZ_NA-GOR was downloaded
+2023-06-20 22:42:40,462:INFO:File MURSK-SOB was downloaded
+2023-06-20 22:42:40,606:INFO:File NANOS was downloaded
+2023-06-20 22:42:40,697:INFO:File NOVA-GOR was downloaded
+2023-06-20 22:42:40,823:INFO:File NOVA-VAS_BLOKE was downloaded
+2023-06-20 22:42:40,957:INFO:File NOVO-MES was downloaded
+2023-06-20 22:42:41,078:INFO:File OSILNICA was downloaded
+2023-06-20 22:42:41,219:INFO:File OTLICA was downloaded
+2023-06-20 22:42:41,302:INFO:File SKOCJAN was downloaded
+2023-06-20 22:42:41,425:INFO:File PASJA-RAV was downloaded
+2023-06-20 22:42:41,542:INFO:File PAVLI-SED was downloaded
+2023-06-20 22:42:41,636:INFO:File PIRAN_OCEAN-BOJ was downloaded
+2023-06-20 22:42:41,838:INFO:File PLANI-POD was downloaded
+2023-06-20 22:42:41,929:INFO:File PODCE-TEK_ATOMS-TOP was downloaded
+2023-06-20 22:42:42,046:INFO:File PODNANOS was downloaded
+2023-06-20 22:42:42,173:INFO:File POSTOJNA was downloaded
+2023-06-20 22:42:42,297:INFO:File PREDEL was downloaded
+2023-06-20 22:42:42,424:INFO:File PTUJ was downloaded
+2023-06-20 22:42:42,554:INFO:File RADEG-NDA was downloaded
+2023-06-20 22:42:42,625:INFO:File RATECE was downloaded
+2023-06-20 22:42:42,750:INFO:File RATIT-VEC was downloaded
+2023-06-20 22:42:42,843:INFO:File RAVNE_NA-KOR was downloaded
+2023-06-20 22:42:43,000:INFO:File ROGAS-SLA was downloaded
+2023-06-20 22:42:43,124:INFO:File ROGLA was downloaded
+2023-06-20 22:42:43,247:INFO:File RUDNO-POL was downloaded
+2023-06-20 22:42:43,346:INFO:File SEVNO was downloaded
+2023-06-20 22:42:43,482:INFO:File SLAVNIK was downloaded
+2023-06-20 22:42:43,599:INFO:File SLOVE-KON was downloaded
+2023-06-20 22:42:43,707:INFO:File TRIJE-KRA_NA-POH was downloaded
+2023-06-20 22:42:43,878:INFO:File SVISCAKI was downloaded
+2023-06-20 22:42:44,012:INFO:File SEBRE-VRH was downloaded
+2023-06-20 22:42:44,143:INFO:File SLOVE-GRA was downloaded
+2023-06-20 22:42:44,279:INFO:File TATRE was downloaded
+2023-06-20 22:42:44,409:INFO:File TOLMIN_VOLCE was downloaded
+2023-06-20 22:42:44,537:INFO:File TOPOL was downloaded
+2023-06-20 22:42:44,688:INFO:File TRBOVLJE was downloaded
+2023-06-20 22:42:44,859:INFO:File TREBNJE was downloaded
+2023-06-20 22:42:45,012:INFO:File TROJANE_LIMOVCE was downloaded
+2023-06-20 22:42:45,150:INFO:File TRZAS-ZAL was downloaded
+2023-06-20 22:42:45,296:INFO:File URSLJ-GOR was downloaded
+2023-06-20 22:42:45,416:INFO:File VEDRIJAN was downloaded
+2023-06-20 22:42:45,538:INFO:File VELENJE was downloaded
+2023-06-20 22:42:45,671:INFO:File VELIK-LAS was downloaded
+2023-06-20 22:42:45,844:INFO:File VOGEL was downloaded
+2023-06-20 22:42:45,980:INFO:File VRHNIKA was downloaded
+2023-06-20 22:42:46,098:INFO:File VRSIC was downloaded
+2023-06-20 22:42:46,210:INFO:File ZADLOG was downloaded
+2023-06-20 22:42:46,357:INFO:File ZELENICA was downloaded
+2023-06-20 22:42:46,478:INFO:File ZGORN-KAP was downloaded
+2023-06-20 22:42:46,617:INFO:File ZGORN-RAD was downloaded
+2023-06-20 22:42:46,738:INFO:File ZGORN-SOR was downloaded
+2023-06-20 22:59:52,132:INFO:-----------------------------------
+2023-06-20 22:59:52,132:INFO:Function delete_tmp_files was called at 2023-06-20 22:59:52.132740
+2023-06-20 22:59:52,132:INFO:Arguments () and {}
+2023-06-20 22:59:52,132:ERROR:[WinError 3] The system cannot find the path specified: 'tmp'
+2023-06-20 22:59:52,132:INFO:-----------------------------------
+2023-06-20 22:59:52,133:INFO:Function retrive_xml_files_name was called at 2023-06-20 22:59:52.133740
+2023-06-20 22:59:52,133:INFO:Arguments ('https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html',) and {}
+2023-06-20 22:59:52,304:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BABNO-POL_latest.xml was found
+2023-06-20 22:59:52,304:INFO:district name: BABNO-POL
+2023-06-20 22:59:52,304:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_BILJE_latest.xml was found
+2023-06-20 22:59:52,304:INFO:district name: NOVA-GOR_BILJE
+2023-06-20 22:59:52,304:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BLEGOS_latest.xml was found
+2023-06-20 22:59:52,304:INFO:district name: BLEGOS
+2023-06-20 22:59:52,304:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOHIN-CES_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: BOHIN-CES
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BORST_GOREN-VAS_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: BORST_GOREN-VAS
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOVEC_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: BOVEC
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BREGINJ_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: BREGINJ
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BUKOV-VRH_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: BUKOV-VRH
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CELJE_MEDLOG_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: CELJE_MEDLOG
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKN-JEZ_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: CERKN-JEZ
+2023-06-20 22:59:52,305:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DAVCA_latest.xml was found
+2023-06-20 22:59:52,305:INFO:district name: DAVCA
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DEBEL-RTI_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: DEBEL-RTI
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CRNOMELJ_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: CRNOMELJ
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_AJDOV-INA_DOLENJE_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: AJDOV-INA_DOLENJE
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GACNIK_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: GACNIK
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GODNJE_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: GODNJE
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORNJ-GRA_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: GORNJ-GRA
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HOCKO-POH_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: HOCKO-POH
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HRASTNIK_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: HRASTNIK
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_IDRIJA_CISTI-NAP_latest.xml was found
+2023-06-20 22:59:52,306:INFO:district name: IDRIJA_CISTI-NAP
+2023-06-20 22:59:52,306:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ILIRS-BIS_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: ILIRS-BIS
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ISKRBA_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: ISKRBA
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERONIM_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: JERONIM
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERUZ-LEM_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: JERUZ-LEM
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JEZERSKO_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: JEZERSKO
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KAMNI-BIS_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: KAMNI-BIS
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KANIN_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: KANIN
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOCEVJE_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: KOCEVJE
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_KAPET-IJA_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: KOPER_KAPET-IJA
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOREN-SED_latest.xml was found
+2023-06-20 22:59:52,307:INFO:district name: KOREN-SED
+2023-06-20 22:59:52,307:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORICKO_KRAJI-PAR_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: GORICKO_KRAJI-PAR
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRANJ_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KRANJ
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KREDA-ICA_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KREDA-ICA
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRN_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KRN
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRSKO_NEK_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KRSKO_NEK
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRVAVEC_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KRVAVEC
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUBED_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KUBED
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUM_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: KUM
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LENDAVA_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: LENDAVA
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKLJE_LETAL-SCE_latest.xml was found
+2023-06-20 22:59:52,308:INFO:district name: CERKLJE_LETAL-SCE
+2023-06-20 22:59:52,308:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_SLIVNICA_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: MARIBOR_SLIVNICA
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BRNIK_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LJUBL-ANA_BRNIK
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LESCE_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LESCE
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PORTOROZ_SECOVLJE_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: PORTOROZ_SECOVLJE
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LISCA_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LISCA
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LITIJA_GRBIN_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LITIJA_GRBIN
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BEZIGRAD_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LJUBL-ANA_BEZIGRAD
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGAR-DOL_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LOGAR-DOL
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGATEC_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: LOGATEC
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_LUKA_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: KOPER_LUKA
+2023-06-20 22:59:52,309:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MALKOVEC_latest.xml was found
+2023-06-20 22:59:52,309:INFO:district name: MALKOVEC
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_VRBAN-PLA_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: MARIBOR_VRBAN-PLA
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIN-VAS_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: MARIN-VAS
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_METLIKA_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: METLIKA
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MEZICA_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: MEZICA
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MIKLAVZ_NA-GOR_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: MIKLAVZ_NA-GOR
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MURSK-SOB_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: MURSK-SOB
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NANOS_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: NANOS
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: NOVA-GOR
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-VAS_BLOKE_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: NOVA-VAS_BLOKE
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVO-MES_latest.xml was found
+2023-06-20 22:59:52,310:INFO:district name: NOVO-MES
+2023-06-20 22:59:52,310:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OSILNICA_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: OSILNICA
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OTLICA_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: OTLICA
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SKOCJAN_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: SKOCJAN
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PASJA-RAV_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: PASJA-RAV
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PAVLI-SED_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: PAVLI-SED
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PIRAN_OCEAN-BOJ_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: PIRAN_OCEAN-BOJ
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PLANI-POD_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: PLANI-POD
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODCE-TEK_ATOMS-TOP_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: PODCE-TEK_ATOMS-TOP
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODNANOS_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: PODNANOS
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_POSTOJNA_latest.xml was found
+2023-06-20 22:59:52,311:INFO:district name: POSTOJNA
+2023-06-20 22:59:52,311:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PREDEL_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: PREDEL
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PTUJ_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: PTUJ
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RADEG-NDA_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: RADEG-NDA
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATECE_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: RATECE
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATIT-VEC_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: RATIT-VEC
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RAVNE_NA-KOR_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: RAVNE_NA-KOR
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGAS-SLA_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: ROGAS-SLA
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGLA_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: ROGLA
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RUDNO-POL_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: RUDNO-POL
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEVNO_latest.xml was found
+2023-06-20 22:59:52,312:INFO:district name: SEVNO
+2023-06-20 22:59:52,312:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLAVNIK_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: SLAVNIK
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-KON_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: SLOVE-KON
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRIJE-KRA_NA-POH_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: TRIJE-KRA_NA-POH
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SVISCAKI_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: SVISCAKI
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEBRE-VRH_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: SEBRE-VRH
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-GRA_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: SLOVE-GRA
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TATRE_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: TATRE
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOLMIN_VOLCE_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: TOLMIN_VOLCE
+2023-06-20 22:59:52,313:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOPOL_latest.xml was found
+2023-06-20 22:59:52,313:INFO:district name: TOPOL
+2023-06-20 22:59:52,314:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRBOVLJE_latest.xml was found
+2023-06-20 22:59:52,314:INFO:district name: TRBOVLJE
+2023-06-20 22:59:52,314:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TREBNJE_latest.xml was found
+2023-06-20 22:59:52,314:INFO:district name: TREBNJE
+2023-06-20 22:59:52,314:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TROJANE_LIMOVCE_latest.xml was found
+2023-06-20 22:59:52,314:INFO:district name: TROJANE_LIMOVCE
+2023-06-20 22:59:52,314:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRZAS-ZAL_latest.xml was found
+2023-06-20 22:59:52,314:INFO:district name: TRZAS-ZAL
+2023-06-20 22:59:52,314:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_URSLJ-GOR_latest.xml was found
+2023-06-20 22:59:52,314:INFO:district name: URSLJ-GOR
+2023-06-20 22:59:52,314:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VEDRIJAN_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: VEDRIJAN
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELENJE_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: VELENJE
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELIK-LAS_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: VELIK-LAS
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VOGEL_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: VOGEL
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRHNIKA_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: VRHNIKA
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRSIC_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: VRSIC
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZADLOG_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: ZADLOG
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZELENICA_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: ZELENICA
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-KAP_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: ZGORN-KAP
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-RAD_latest.xml was found
+2023-06-20 22:59:52,315:INFO:district name: ZGORN-RAD
+2023-06-20 22:59:52,315:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-SOR_latest.xml was found
+2023-06-20 22:59:52,316:INFO:district name: ZGORN-SOR
+2023-06-20 22:59:52,320:INFO:-----------------------------------
+2023-06-20 22:59:52,320:INFO:Function write_xml_files was called at 2023-06-20 22:59:52.320964
+2023-06-20 22:59:52,320:INFO:Arguments (['BABNO-POL', 'NOVA-GOR_BILJE', 'BLEGOS', 'BOHIN-CES', 'BORST_GOREN-VAS', 'BOVEC', 'BREGINJ', 'BUKOV-VRH', 'CELJE_MEDLOG', 'CERKN-JEZ', 'DAVCA', 'DEBEL-RTI', 'CRNOMELJ', 'AJDOV-INA_DOLENJE', 'GACNIK', 'GODNJE', 'GORNJ-GRA', 'HOCKO-POH', 'HRASTNIK', 'IDRIJA_CISTI-NAP', 'ILIRS-BIS', 'ISKRBA', 'JERONIM', 'JERUZ-LEM', 'JEZERSKO', 'KAMNI-BIS', 'KANIN', 'KOCEVJE', 'KOPER_KAPET-IJA', 'KOREN-SED', 'GORICKO_KRAJI-PAR', 'KRANJ', 'KREDA-ICA', 'KRN', 'KRSKO_NEK', 'KRVAVEC', 'KUBED', 'KUM', 'LENDAVA', 'CERKLJE_LETAL-SCE', 'MARIBOR_SLIVNICA', 'LJUBL-ANA_BRNIK', 'LESCE', 'PORTOROZ_SECOVLJE', 'LISCA', 'LITIJA_GRBIN', 'LJUBL-ANA_BEZIGRAD', 'LOGAR-DOL', 'LOGATEC', 'KOPER_LUKA', 'MALKOVEC', 'MARIBOR_VRBAN-PLA', 'MARIN-VAS', 'METLIKA', 'MEZICA', 'MIKLAVZ_NA-GOR', 'MURSK-SOB', 'NANOS', 'NOVA-GOR', 'NOVA-VAS_BLOKE', 'NOVO-MES', 'OSILNICA', 'OTLICA', 'SKOCJAN', 'PASJA-RAV', 'PAVLI-SED', 'PIRAN_OCEAN-BOJ', 'PLANI-POD', 'PODCE-TEK_ATOMS-TOP', 'PODNANOS', 'POSTOJNA', 'PREDEL', 'PTUJ', 'RADEG-NDA', 'RATECE', 'RATIT-VEC', 'RAVNE_NA-KOR', 'ROGAS-SLA', 'ROGLA', 'RUDNO-POL', 'SEVNO', 'SLAVNIK', 'SLOVE-KON', 'TRIJE-KRA_NA-POH', 'SVISCAKI', 'SEBRE-VRH', 'SLOVE-GRA', 'TATRE', 'TOLMIN_VOLCE', 'TOPOL', 'TRBOVLJE', 'TREBNJE', 'TROJANE_LIMOVCE', 'TRZAS-ZAL', 'URSLJ-GOR', 'VEDRIJAN', 'VELENJE', 'VELIK-LAS', 'VOGEL', 'VRHNIKA', 'VRSIC', 'ZADLOG', 'ZELENICA', 'ZGORN-KAP', 'ZGORN-RAD', 'ZGORN-SOR'],) and {}
+2023-06-20 23:00:51,237:INFO:-----------------------------------
+2023-06-20 23:00:51,237:INFO:Function delete_tmp_files was called at 2023-06-20 23:00:51.237178
+2023-06-20 23:00:51,237:INFO:Arguments () and {}
+2023-06-20 23:00:51,237:ERROR:[WinError 3] The system cannot find the path specified: 'tmp'
+2023-06-20 23:00:51,237:INFO:-----------------------------------
+2023-06-20 23:00:51,237:INFO:Function retrive_xml_files_name was called at 2023-06-20 23:00:51.237178
+2023-06-20 23:00:51,237:INFO:Arguments ('https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html',) and {}
+2023-06-20 23:00:51,403:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BABNO-POL_latest.xml was found
+2023-06-20 23:00:51,403:INFO:district name: BABNO-POL
+2023-06-20 23:00:51,403:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_BILJE_latest.xml was found
+2023-06-20 23:00:51,403:INFO:district name: NOVA-GOR_BILJE
+2023-06-20 23:00:51,403:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BLEGOS_latest.xml was found
+2023-06-20 23:00:51,403:INFO:district name: BLEGOS
+2023-06-20 23:00:51,403:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOHIN-CES_latest.xml was found
+2023-06-20 23:00:51,403:INFO:district name: BOHIN-CES
+2023-06-20 23:00:51,403:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BORST_GOREN-VAS_latest.xml was found
+2023-06-20 23:00:51,403:INFO:district name: BORST_GOREN-VAS
+2023-06-20 23:00:51,403:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BOVEC_latest.xml was found
+2023-06-20 23:00:51,403:INFO:district name: BOVEC
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BREGINJ_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: BREGINJ
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_BUKOV-VRH_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: BUKOV-VRH
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CELJE_MEDLOG_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: CELJE_MEDLOG
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKN-JEZ_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: CERKN-JEZ
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DAVCA_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: DAVCA
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_DEBEL-RTI_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: DEBEL-RTI
+2023-06-20 23:00:51,404:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CRNOMELJ_latest.xml was found
+2023-06-20 23:00:51,404:INFO:district name: CRNOMELJ
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_AJDOV-INA_DOLENJE_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: AJDOV-INA_DOLENJE
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GACNIK_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: GACNIK
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GODNJE_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: GODNJE
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORNJ-GRA_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: GORNJ-GRA
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HOCKO-POH_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: HOCKO-POH
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_HRASTNIK_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: HRASTNIK
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_IDRIJA_CISTI-NAP_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: IDRIJA_CISTI-NAP
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ILIRS-BIS_latest.xml was found
+2023-06-20 23:00:51,405:INFO:district name: ILIRS-BIS
+2023-06-20 23:00:51,405:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ISKRBA_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: ISKRBA
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERONIM_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: JERONIM
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JERUZ-LEM_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: JERUZ-LEM
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_JEZERSKO_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: JEZERSKO
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KAMNI-BIS_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: KAMNI-BIS
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KANIN_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: KANIN
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOCEVJE_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: KOCEVJE
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_KAPET-IJA_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: KOPER_KAPET-IJA
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOREN-SED_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: KOREN-SED
+2023-06-20 23:00:51,406:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_GORICKO_KRAJI-PAR_latest.xml was found
+2023-06-20 23:00:51,406:INFO:district name: GORICKO_KRAJI-PAR
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRANJ_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KRANJ
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KREDA-ICA_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KREDA-ICA
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRN_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KRN
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRSKO_NEK_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KRSKO_NEK
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KRVAVEC_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KRVAVEC
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUBED_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KUBED
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KUM_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: KUM
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LENDAVA_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: LENDAVA
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_CERKLJE_LETAL-SCE_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: CERKLJE_LETAL-SCE
+2023-06-20 23:00:51,407:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_SLIVNICA_latest.xml was found
+2023-06-20 23:00:51,407:INFO:district name: MARIBOR_SLIVNICA
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BRNIK_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LJUBL-ANA_BRNIK
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LESCE_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LESCE
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PORTOROZ_SECOVLJE_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: PORTOROZ_SECOVLJE
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LISCA_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LISCA
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LITIJA_GRBIN_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LITIJA_GRBIN
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LJUBL-ANA_BEZIGRAD_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LJUBL-ANA_BEZIGRAD
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGAR-DOL_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LOGAR-DOL
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_LOGATEC_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: LOGATEC
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_KOPER_LUKA_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: KOPER_LUKA
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MALKOVEC_latest.xml was found
+2023-06-20 23:00:51,408:INFO:district name: MALKOVEC
+2023-06-20 23:00:51,408:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIBOR_VRBAN-PLA_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: MARIBOR_VRBAN-PLA
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MARIN-VAS_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: MARIN-VAS
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_METLIKA_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: METLIKA
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MEZICA_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: MEZICA
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MIKLAVZ_NA-GOR_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: MIKLAVZ_NA-GOR
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_MURSK-SOB_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: MURSK-SOB
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NANOS_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: NANOS
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-GOR_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: NOVA-GOR
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVA-VAS_BLOKE_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: NOVA-VAS_BLOKE
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_NOVO-MES_latest.xml was found
+2023-06-20 23:00:51,409:INFO:district name: NOVO-MES
+2023-06-20 23:00:51,409:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OSILNICA_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: OSILNICA
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_OTLICA_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: OTLICA
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SKOCJAN_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: SKOCJAN
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PASJA-RAV_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PASJA-RAV
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PAVLI-SED_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PAVLI-SED
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PIRAN_OCEAN-BOJ_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PIRAN_OCEAN-BOJ
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PLANI-POD_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PLANI-POD
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODCE-TEK_ATOMS-TOP_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PODCE-TEK_ATOMS-TOP
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PODNANOS_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PODNANOS
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_POSTOJNA_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: POSTOJNA
+2023-06-20 23:00:51,410:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PREDEL_latest.xml was found
+2023-06-20 23:00:51,410:INFO:district name: PREDEL
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_PTUJ_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: PTUJ
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RADEG-NDA_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: RADEG-NDA
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATECE_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: RATECE
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RATIT-VEC_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: RATIT-VEC
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RAVNE_NA-KOR_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: RAVNE_NA-KOR
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGAS-SLA_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: ROGAS-SLA
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ROGLA_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: ROGLA
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_RUDNO-POL_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: RUDNO-POL
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEVNO_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: SEVNO
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLAVNIK_latest.xml was found
+2023-06-20 23:00:51,411:INFO:district name: SLAVNIK
+2023-06-20 23:00:51,411:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-KON_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: SLOVE-KON
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRIJE-KRA_NA-POH_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: TRIJE-KRA_NA-POH
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SVISCAKI_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: SVISCAKI
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SEBRE-VRH_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: SEBRE-VRH
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_SLOVE-GRA_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: SLOVE-GRA
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TATRE_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: TATRE
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOLMIN_VOLCE_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: TOLMIN_VOLCE
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TOPOL_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: TOPOL
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRBOVLJE_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: TRBOVLJE
+2023-06-20 23:00:51,412:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TREBNJE_latest.xml was found
+2023-06-20 23:00:51,412:INFO:district name: TREBNJE
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TROJANE_LIMOVCE_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: TROJANE_LIMOVCE
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_TRZAS-ZAL_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: TRZAS-ZAL
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_URSLJ-GOR_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: URSLJ-GOR
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VEDRIJAN_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: VEDRIJAN
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELENJE_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: VELENJE
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VELIK-LAS_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: VELIK-LAS
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VOGEL_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: VOGEL
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRHNIKA_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: VRHNIKA
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_VRSIC_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: VRSIC
+2023-06-20 23:00:51,413:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZADLOG_latest.xml was found
+2023-06-20 23:00:51,413:INFO:district name: ZADLOG
+2023-06-20 23:00:51,414:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZELENICA_latest.xml was found
+2023-06-20 23:00:51,414:INFO:district name: ZELENICA
+2023-06-20 23:00:51,414:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-KAP_latest.xml was found
+2023-06-20 23:00:51,414:INFO:district name: ZGORN-KAP
+2023-06-20 23:00:51,414:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-RAD_latest.xml was found
+2023-06-20 23:00:51,414:INFO:district name: ZGORN-RAD
+2023-06-20 23:00:51,414:INFO:File /uploads/probase/www/observ/surface/text/sl/observationAms_ZGORN-SOR_latest.xml was found
+2023-06-20 23:00:51,414:INFO:district name: ZGORN-SOR
+2023-06-20 23:00:51,415:INFO:-----------------------------------
+2023-06-20 23:00:51,415:INFO:Function write_xml_files was called at 2023-06-20 23:00:51.415444
+2023-06-20 23:00:51,415:INFO:Arguments (['BABNO-POL', 'NOVA-GOR_BILJE', 'BLEGOS', 'BOHIN-CES', 'BORST_GOREN-VAS', 'BOVEC', 'BREGINJ', 'BUKOV-VRH', 'CELJE_MEDLOG', 'CERKN-JEZ', 'DAVCA', 'DEBEL-RTI', 'CRNOMELJ', 'AJDOV-INA_DOLENJE', 'GACNIK', 'GODNJE', 'GORNJ-GRA', 'HOCKO-POH', 'HRASTNIK', 'IDRIJA_CISTI-NAP', 'ILIRS-BIS', 'ISKRBA', 'JERONIM', 'JERUZ-LEM', 'JEZERSKO', 'KAMNI-BIS', 'KANIN', 'KOCEVJE', 'KOPER_KAPET-IJA', 'KOREN-SED', 'GORICKO_KRAJI-PAR', 'KRANJ', 'KREDA-ICA', 'KRN', 'KRSKO_NEK', 'KRVAVEC', 'KUBED', 'KUM', 'LENDAVA', 'CERKLJE_LETAL-SCE', 'MARIBOR_SLIVNICA', 'LJUBL-ANA_BRNIK', 'LESCE', 'PORTOROZ_SECOVLJE', 'LISCA', 'LITIJA_GRBIN', 'LJUBL-ANA_BEZIGRAD', 'LOGAR-DOL', 'LOGATEC', 'KOPER_LUKA', 'MALKOVEC', 'MARIBOR_VRBAN-PLA', 'MARIN-VAS', 'METLIKA', 'MEZICA', 'MIKLAVZ_NA-GOR', 'MURSK-SOB', 'NANOS', 'NOVA-GOR', 'NOVA-VAS_BLOKE', 'NOVO-MES', 'OSILNICA', 'OTLICA', 'SKOCJAN', 'PASJA-RAV', 'PAVLI-SED', 'PIRAN_OCEAN-BOJ', 'PLANI-POD', 'PODCE-TEK_ATOMS-TOP', 'PODNANOS', 'POSTOJNA', 'PREDEL', 'PTUJ', 'RADEG-NDA', 'RATECE', 'RATIT-VEC', 'RAVNE_NA-KOR', 'ROGAS-SLA', 'ROGLA', 'RUDNO-POL', 'SEVNO', 'SLAVNIK', 'SLOVE-KON', 'TRIJE-KRA_NA-POH', 'SVISCAKI', 'SEBRE-VRH', 'SLOVE-GRA', 'TATRE', 'TOLMIN_VOLCE', 'TOPOL', 'TRBOVLJE', 'TREBNJE', 'TROJANE_LIMOVCE', 'TRZAS-ZAL', 'URSLJ-GOR', 'VEDRIJAN', 'VELENJE', 'VELIK-LAS', 'VOGEL', 'VRHNIKA', 'VRSIC', 'ZADLOG', 'ZELENICA', 'ZGORN-KAP', 'ZGORN-RAD', 'ZGORN-SOR'],) and {}
+2023-06-20 23:00:51,528:INFO:File BABNO-POL was downloaded
+2023-06-20 23:00:51,692:INFO:File NOVA-GOR_BILJE was downloaded
+2023-06-20 23:00:51,816:INFO:File BLEGOS was downloaded
+2023-06-20 23:00:51,943:INFO:File BOHIN-CES was downloaded
+2023-06-20 23:00:52,062:INFO:File BORST_GOREN-VAS was downloaded
+2023-06-20 23:00:52,131:INFO:File BOVEC was downloaded
+2023-06-20 23:00:52,253:INFO:File BREGINJ was downloaded
+2023-06-20 23:00:52,358:INFO:File BUKOV-VRH was downloaded
+2023-06-20 23:00:52,449:INFO:File CELJE_MEDLOG was downloaded
+2023-06-20 23:00:52,579:INFO:File CERKN-JEZ was downloaded
+2023-06-20 23:00:52,713:INFO:File DAVCA was downloaded
+2023-06-20 23:00:52,830:INFO:File DEBEL-RTI was downloaded
+2023-06-20 23:00:52,909:INFO:File CRNOMELJ was downloaded
+2023-06-20 23:00:52,987:INFO:File AJDOV-INA_DOLENJE was downloaded
+2023-06-20 23:00:53,118:INFO:File GACNIK was downloaded
+2023-06-20 23:00:53,247:INFO:File GODNJE was downloaded
+2023-06-20 23:00:53,366:INFO:File GORNJ-GRA was downloaded
+2023-06-20 23:00:53,489:INFO:File HOCKO-POH was downloaded
+2023-06-20 23:00:53,610:INFO:File HRASTNIK was downloaded
+2023-06-20 23:00:53,750:INFO:File IDRIJA_CISTI-NAP was downloaded
+2023-06-20 23:00:53,827:INFO:File ILIRS-BIS was downloaded
+2023-06-20 23:00:53,949:INFO:File ISKRBA was downloaded
+2023-06-20 23:00:54,077:INFO:File JERONIM was downloaded
+2023-06-20 23:00:54,199:INFO:File JERUZ-LEM was downloaded
+2023-06-20 23:00:54,323:INFO:File JEZERSKO was downloaded
+2023-06-20 23:00:54,473:INFO:File KAMNI-BIS was downloaded
+2023-06-20 23:00:54,603:INFO:File KANIN was downloaded
+2023-06-20 23:00:54,724:INFO:File KOCEVJE was downloaded
+2023-06-20 23:00:54,803:INFO:File KOPER_KAPET-IJA was downloaded
+2023-06-20 23:00:54,970:INFO:File KOREN-SED was downloaded
+2023-06-20 23:00:55,052:INFO:File GORICKO_KRAJI-PAR was downloaded
+2023-06-20 23:00:55,178:INFO:File KRANJ was downloaded
+2023-06-20 23:00:55,309:INFO:File KREDA-ICA was downloaded
+2023-06-20 23:00:55,421:INFO:File KRN was downloaded
+2023-06-20 23:00:55,490:INFO:File KRSKO_NEK was downloaded
+2023-06-20 23:00:55,676:INFO:File KRVAVEC was downloaded
+2023-06-20 23:00:55,802:INFO:File KUBED was downloaded
+2023-06-20 23:00:55,927:INFO:File KUM was downloaded
+2023-06-20 23:00:55,999:INFO:File LENDAVA was downloaded
+2023-06-20 23:00:56,088:INFO:File CERKLJE_LETAL-SCE was downloaded
+2023-06-20 23:00:56,185:INFO:File MARIBOR_SLIVNICA was downloaded
+2023-06-20 23:00:56,328:INFO:File LJUBL-ANA_BRNIK was downloaded
+2023-06-20 23:00:56,418:INFO:File LESCE was downloaded
+2023-06-20 23:00:56,489:INFO:File PORTOROZ_SECOVLJE was downloaded
+2023-06-20 23:00:56,625:INFO:File LISCA was downloaded
+2023-06-20 23:00:56,768:INFO:File LITIJA_GRBIN was downloaded
+2023-06-20 23:00:56,913:INFO:File LJUBL-ANA_BEZIGRAD was downloaded
+2023-06-20 23:00:57,056:INFO:File LOGAR-DOL was downloaded
+2023-06-20 23:00:57,182:INFO:File LOGATEC was downloaded
+2023-06-20 23:00:57,252:INFO:File KOPER_LUKA was downloaded
+2023-06-20 23:00:57,337:INFO:File MALKOVEC was downloaded
+2023-06-20 23:00:57,500:INFO:File MARIBOR_VRBAN-PLA was downloaded
+2023-06-20 23:00:57,618:INFO:File MARIN-VAS was downloaded
+2023-06-20 23:00:57,730:INFO:File METLIKA was downloaded
+2023-06-20 23:00:57,845:INFO:File MEZICA was downloaded
+2023-06-20 23:00:57,958:INFO:File MIKLAVZ_NA-GOR was downloaded
+2023-06-20 23:00:58,097:INFO:File MURSK-SOB was downloaded
+2023-06-20 23:00:58,227:INFO:File NANOS was downloaded
+2023-06-20 23:00:58,348:INFO:File NOVA-GOR was downloaded
+2023-06-20 23:00:58,467:INFO:File NOVA-VAS_BLOKE was downloaded
+2023-06-20 23:00:58,599:INFO:File NOVO-MES was downloaded
+2023-06-20 23:00:58,709:INFO:File OSILNICA was downloaded
+2023-06-20 23:00:58,833:INFO:File OTLICA was downloaded
+2023-06-20 23:00:58,942:INFO:File SKOCJAN was downloaded
+2023-06-20 23:00:59,084:INFO:File PASJA-RAV was downloaded
+2023-06-20 23:00:59,197:INFO:File PAVLI-SED was downloaded
+2023-06-20 23:00:59,279:INFO:File PIRAN_OCEAN-BOJ was downloaded
+2023-06-20 23:00:59,411:INFO:File PLANI-POD was downloaded
+2023-06-20 23:00:59,484:INFO:File PODCE-TEK_ATOMS-TOP was downloaded
+2023-06-20 23:00:59,597:INFO:File PODNANOS was downloaded
+2023-06-20 23:00:59,725:INFO:File POSTOJNA was downloaded
+2023-06-20 23:00:59,842:INFO:File PREDEL was downloaded
+2023-06-20 23:00:59,971:INFO:File PTUJ was downloaded
+2023-06-20 23:01:00,078:INFO:File RADEG-NDA was downloaded
+2023-06-20 23:01:00,160:INFO:File RATECE was downloaded
+2023-06-20 23:01:00,291:INFO:File RATIT-VEC was downloaded
+2023-06-20 23:01:00,374:INFO:File RAVNE_NA-KOR was downloaded
+2023-06-20 23:01:00,519:INFO:File ROGAS-SLA was downloaded
+2023-06-20 23:01:00,650:INFO:File ROGLA was downloaded
+2023-06-20 23:01:00,785:INFO:File RUDNO-POL was downloaded
+2023-06-20 23:01:00,907:INFO:File SEVNO was downloaded
+2023-06-20 23:01:01,051:INFO:File SLAVNIK was downloaded
+2023-06-20 23:01:01,176:INFO:File SLOVE-KON was downloaded
+2023-06-20 23:01:01,294:INFO:File TRIJE-KRA_NA-POH was downloaded
+2023-06-20 23:01:01,439:INFO:File SVISCAKI was downloaded
+2023-06-20 23:01:01,570:INFO:File SEBRE-VRH was downloaded
+2023-06-20 23:01:01,702:INFO:File SLOVE-GRA was downloaded
+2023-06-20 23:01:01,871:INFO:File TATRE was downloaded
+2023-06-20 23:01:02,054:INFO:File TOLMIN_VOLCE was downloaded
+2023-06-20 23:01:02,238:INFO:File TOPOL was downloaded
+2023-06-20 23:01:02,405:INFO:File TRBOVLJE was downloaded
+2023-06-20 23:01:02,572:INFO:File TREBNJE was downloaded
+2023-06-20 23:01:02,776:INFO:File TROJANE_LIMOVCE was downloaded
+2023-06-20 23:01:02,946:INFO:File TRZAS-ZAL was downloaded
+2023-06-20 23:01:03,157:INFO:File URSLJ-GOR was downloaded
+2023-06-20 23:01:03,327:INFO:File VEDRIJAN was downloaded
+2023-06-20 23:01:03,534:INFO:File VELENJE was downloaded
+2023-06-20 23:01:03,670:INFO:File VELIK-LAS was downloaded
+2023-06-20 23:01:03,843:INFO:File VOGEL was downloaded
+2023-06-20 23:01:04,012:INFO:File VRHNIKA was downloaded
+2023-06-20 23:01:04,192:INFO:File VRSIC was downloaded
+2023-06-20 23:01:04,334:INFO:File ZADLOG was downloaded
+2023-06-20 23:01:04,490:INFO:File ZELENICA was downloaded
+2023-06-20 23:01:04,651:INFO:File ZGORN-KAP was downloaded
+2023-06-20 23:01:04,855:INFO:File ZGORN-RAD was downloaded
+2023-06-20 23:01:05,006:INFO:File ZGORN-SOR was downloaded

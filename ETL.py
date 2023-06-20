@@ -3,6 +3,7 @@ import os
 from bs4 import BeautifulSoup
 from datetime import datetime
 import logging
+import re
 
 #setup logging
 logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
@@ -25,48 +26,65 @@ def delete_tmp_files():
     except Exception as e:
         print(e)
         logging.error(e)
+
 @log_etl
-def retrive_xml_files(url):
-    # scrap and retrive all 'observationAms' xml files from url and save them to local folder and return list of xml files
-    retrive_xml_files=[]
+def retrive_xml_files_name(url)->list:
+    # scrap and retrive all 'observationAms' xml files name
+    xml_files=[]
     try:
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         for link in soup.find_all('a'):
-            href= link.get('href')
-            if 'observationAms' in href and href.endswith('.xml') and 'observationAms_si' not in href:
-                logging.info(f'File {href} was found')
-                retrive_xml_files.append(link.get('href'))
+            href = link.get('href')
+            # check if it is xml file and if it is AMS. exclude observationAms_si
+            if 'observationAms' not in href or not href.endswith(
+                    '.xml') or 'observationAms_si' in href:
+                continue
+            logging.info(f'File {href} was found')
+            #Extract district name from url
+            pattern = r'observationAms_(.*?)_latest'
+            match = re.search(pattern, href)
+            if match:
+                # The district name is in the first group
+                district_name = match.group(1)
+                print('district name:', district_name)
+                logging.info(f'district name: {district_name}')
+            else:
+                logging.info('No city name found in URL.')
+                print('No city name found in URL.')
+
+            xml_files.append(district_name)
     except Exception as e:
         print(e)
         logging.error(e)
-    return (retrive_xml_files)
+    print (xml_files)
+    return (xml_files)
+
 
 @log_etl
-def write_xml_files(retrive_xml_files):
-    # download xml files and rename and write them to local folder tmp
-    city_names=[]
+def write_xml_files(xml_files_names):
+    # download xml files and write them to local folder tmp
+
     #check if there is tmp folder. if not create it
     if not os.path.exists('tmp'):
         os.makedirs('tmp')
 
-    for file in retrive_xml_files:
+    for name in xml_files_names:
+        temp_url = f"https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/recent/observationAms_{name}_history.xml"
         try:
-            response = requests.get('https://meteo.arso.gov.si'+file)
-            name = file.split('_')[-2]
+            response = requests.get(temp_url)
             logging.info(f'File {name} was downloaded')
             print(f'File {name}.xml was downloaded')
-            city_names.append(name)
             with open(os.path.join('tmp', os.path.basename(name+'.xml')), 'wb') as f:
                 f.write(response.content)
         except Exception as e:
             print(e)
             logging.error(e)
-    return city_names
+
 
 
 url='https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html'
 
-
 delete_tmp_files()
-print(write_xml_files(retrive_xml_files(url)))
+files= retrive_xml_files_name(url)
+write_xml_files(files)
