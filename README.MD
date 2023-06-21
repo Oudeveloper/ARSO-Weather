@@ -38,11 +38,26 @@ The `etl.sh` shell script orchestrates a simple ETL process that fetches data fr
 
 ## Usage
 
-Before running the ETL script, ensure that you update the path to the location where the script is stored. To make the script executable, run:
+Before running the ETL script, a few setup steps are required:
 
-```bash
-chmod +x etl.sh
-```
+1. **Update Script Path**: Ensure that you update the path to the location where the script is stored. To make the script executable, run:
+
+   ```bash
+   chmod +x etl.sh
+   ```
+
+2. **MySQL Configuration**: The scripts require access to your MySQL server. update a `credentials.txt` file in the same directory as your scripts and include your MySQL server's details as follows:
+
+   ```ini
+   localhost
+   yourusername
+   yourpassword
+   ```
+
+   Make sure to replace `yourusername`, `yourpassword`, and `yourdatabase` with your actual MySQL credentials and database name. This file is used by the scripts to connect to your MySQL server.
+
+
+3. **Logging**: The scripts generate a log file named `log.txt` in the same directory. This file will contain information about the execution of the scripts, including any errors or exceptions that might occur. Be sure to check this file regularly for any issues.
 
 ### Setting up a Crontab
 
