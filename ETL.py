@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import logging
 import re
+import aiohttp
+import aiofiles
+import asyncio
 
 #setup logging
 logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
@@ -19,6 +22,9 @@ def log_etl(func):
 @log_etl
 def delete_tmp_files():
     # delete all files from tmp folder
+
+    if not os.path.exists('tmp'):
+        os.makedirs('tmp')
     try:
         for file in os.listdir('tmp'):
             os.remove(os.path.join('tmp', file))
@@ -29,7 +35,7 @@ def delete_tmp_files():
 
 @log_etl
 def retrive_xml_files_name(url)->list:
-    # scrap and retrive all 'observationAms' xml files name
+    # scrap url and retrive all 'observationAms' xml files name
     xml_files=[]
     try:
         response = requests.get(url)
@@ -41,13 +47,13 @@ def retrive_xml_files_name(url)->list:
                     '.xml') or 'observationAms_si' in href:
                 continue
             logging.info(f'File {href} was found')
-            #Extract district name from url
+            #Extract district name from url with regex
             pattern = r'observationAms_(.*?)_latest'
             match = re.search(pattern, href)
             if match:
                 # The district name is in the first group
                 district_name = match.group(1)
-                print('district name:', district_name)
+                # print('district name:', district_name)
                 logging.info(f'district name: {district_name}')
             else:
                 logging.info('No city name found in URL.')
@@ -62,29 +68,26 @@ def retrive_xml_files_name(url)->list:
 
 
 @log_etl
-def write_xml_files(xml_files_names):
-    # download xml files and write them to local folder tmp
-
-    #check if there is tmp folder. if not create it
-    if not os.path.exists('tmp'):
-        os.makedirs('tmp')
-
-    for name in xml_files_names:
-        temp_url = f"https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/recent/observationAms_{name}_history.xml"
-        try:
-            response = requests.get(temp_url)
-            logging.info(f'File {name} was downloaded')
-            print(f'File {name}.xml was downloaded')
-            with open(os.path.join('tmp', os.path.basename(name+'.xml')), 'wb') as f:
-                f.write(response.content)
-        except Exception as e:
-            print(e)
-            logging.error(e)
-
-
+async def download_file(file_name):
+    # download xml file from url acynccronously and save it to tmp folder
+    temp_url = f"https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/recent/observationAms_{file_name}_history.xml"
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(temp_url) as resp:
+                if resp.status == 200:
+                    async with aiofiles.open(os.path.join('tmp', os.path.basename(file_name+'.xml')), 'wb') as f:
+                        await f.write(await resp.read())
+                        print(f"Downloaded {url}")
+                        logging.info(f'File {file_name} was downloaded')
+    except Exception as e:
+        print(e)
+        logging.error(e)
 
 url='https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html'
-
 delete_tmp_files()
 files= retrive_xml_files_name(url)
-write_xml_files(files)
+tasks = [download_file(file) for file in files]
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+loop.run_until_complete(asyncio.gather(*tasks))
+loop.close()
