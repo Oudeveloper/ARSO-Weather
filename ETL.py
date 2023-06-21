@@ -15,7 +15,9 @@ def log_etl(func):
     def wrapper(*args, **kwargs):
         logging.info('-----------------------------------')
         logging.info(f'Function {func.__name__} was called at {datetime.now()}')
-        logging.info(f'Arguments {args} and {kwargs}')
+        if len(args) !=0 or len(kwargs)!=0 : #if function has arguments log them
+            logging.info('Function arguments:')
+            logging.info(f'Arguments {args} and {kwargs}')
         return func(*args, **kwargs)
     return wrapper
 
@@ -77,17 +79,20 @@ async def download_file(file_name):
                 if resp.status == 200:
                     async with aiofiles.open(os.path.join('tmp', os.path.basename(file_name+'.xml')), 'wb') as f:
                         await f.write(await resp.read())
-                        print(f"Downloaded {url}")
+                        print(f"Downloaded {temp_url}")
                         logging.info(f'File {file_name} was downloaded')
     except Exception as e:
         print(e)
         logging.error(e)
+def main():
+    url='https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html'
+    delete_tmp_files()
+    files= retrive_xml_files_name(url)
+    tasks = [download_file(file) for file in files]
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    loop.run_until_complete(asyncio.gather(*tasks))
+    loop.close()
 
-url='https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html'
-delete_tmp_files()
-files= retrive_xml_files_name(url)
-tasks = [download_file(file) for file in files]
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
-loop.run_until_complete(asyncio.gather(*tasks))
-loop.close()
+if __name__ == '__main__':
+    main()
