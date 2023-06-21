@@ -5,15 +5,17 @@ from sqlalchemy import create_engine
 import os
 from sql_queries import *
 import logging
-from ETL import log_etl
+from  logging_etl import log_etl
 from  datetime import datetime
 
 def get_credentials():
-    """read credentials of the database from credentials.txt file:
+    """Get credentials from credentials.txt file:
     host
     user
     password
-    """
+
+    :return: list of credentials"""
+
     try:
         with open('credentials.txt', 'r') as file:
             lines = file.readlines()
@@ -25,7 +27,9 @@ def get_credentials():
 
 @log_etl
 def create_database_and_table():
-    """Create database and table if not exists"""
+    """Create database and table in mysql
+    :return: NONE"""
+
     connection = None
     try:
         host, user, password = get_credentials()
@@ -51,8 +55,10 @@ def create_database_and_table():
             connection.close()
 @log_etl
 def insert_city_data():
-    """read all files from tmp folder and make a list of the name without extension
-    check if city already exists in the table, if not insert it"""
+    """read all files from tmp folder and make a list of the name of the cities
+    check if city already exists in the table, if not insert it
+    :return: NONE"""
+
     connection = None
     try:
         host, user, password = get_credentials()
@@ -89,7 +95,10 @@ def insert_city_data():
             connection.close()
 
 def find_city_id(city):
-    """find city id from the table cities based on city name"""
+    """find city id from the table cities based on city name
+    :param city: city name
+    :return: city id"""
+
     connection = None
     try:
         host, user, password = get_credentials()
@@ -116,7 +125,10 @@ def find_city_id(city):
 def xml_parser(file):
     """parse xml file and return a dataframe with the following columns:
     datetime, temperature, city_id, humidity, wind_speed_km, pressure,
-    precipitation, solar_radiation, diffuse_solar_radiation"""
+    precipitation, solar_radiation, diffuse_solar_radiation
+    :param file: xml file
+    :return: dataframe"""
+
 
     df = pd.read_xml(f'tmp/{file}', xpath="//metData")
     city_name = file.split('.')[0]
@@ -140,7 +152,9 @@ def xml_parser(file):
 
 @log_etl
 def insert_weather_data():
-    """read all files from tmp folder and insert data into weather table """
+    """read all files from tmp folder and insert data into weather table
+     :return: NONE """
+
     for file in os.listdir('tmp'):
         if not file.endswith('.xml'):           #check if file is xml
             continue

@@ -7,23 +7,15 @@ import re
 import aiohttp
 import aiofiles
 import asyncio
-
-#setup logging
-logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
-
-def log_etl(func):
-    def wrapper(*args, **kwargs):
-        logging.info('-----------------------------------')
-        logging.info(f'Function {func.__name__} was called at {datetime.now()}')
-        if len(args) !=0 or len(kwargs)!=0 : #if function has arguments log them
-            logging.info('Function arguments:')
-            logging.info(f'Arguments {args} and {kwargs}')
-        return func(*args, **kwargs)
-    return wrapper
+from  logging_etl import log_etl
 
 @log_etl
 def delete_tmp_files():
-    # delete all files from tmp folder
+    """
+    delete all files from tmp folder
+   :return:NONE
+    """
+
 
     if not os.path.exists('tmp'):
         os.makedirs('tmp')
@@ -37,7 +29,10 @@ def delete_tmp_files():
 
 @log_etl
 def retrive_xml_files_name(url)->list:
-    # scrap url and retrive all 'observationAms' xml files name
+    """scrap url and retrive all 'observationAms' xml files name
+    :param url: url of the page with xml files name
+    :return: list of xml files name
+    """
     xml_files=[]
     try:
         response = requests.get(url)
@@ -71,7 +66,11 @@ def retrive_xml_files_name(url)->list:
 
 @log_etl
 async def download_file(file_name):
-    # download xml file from url acynccronously and save it to tmp folder
+    """download xml file from url acynccronously and save it in tmp folder
+    :param file_name: name of the file to download
+    :return: NONE
+    """
+
     temp_url = f"https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/recent/observationAms_{file_name}_history.xml"
     try:
         async with aiohttp.ClientSession() as session:
@@ -84,6 +83,7 @@ async def download_file(file_name):
     except Exception as e:
         print(e)
         logging.error(e)
+
 def main():
     url='https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si/index.html'
     delete_tmp_files()
